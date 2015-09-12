@@ -39,7 +39,7 @@ html, body{
 #track-data:hover{
 	opacity: 1;
 }
-#track-data #open{
+#track-data #open, #track-data #close{
 	display: none;
 	position: absolute;
 	top: 90px;
@@ -47,6 +47,12 @@ html, body{
 }
 #track-data.hidden #open{
 	display: block;
+}
+#track-data #close{
+	display: block;
+}
+#track-data.hidden #close{
+	display: none;
 }
 
 #toolbar{
