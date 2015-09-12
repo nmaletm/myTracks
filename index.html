@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>myTracks - Néstor</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2" />
+    <meta name="description" content="myTracks - Néstor"/>
+    <link href="http://www.storn.es/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/style.css" />
+  </head>
+  <body class="">
+    <div id="map-wrapper">
+      <div id="toolbar">
+        <div id="title"></div>
+        <div id="back-button">&lt; Back</div>
+      </div>
+      <div id="map"></div>
+    </div>
+    <div id="track-data">
+      <ul>
+        <li><b>Distance:</b> <span id="distance"></span></li>
+        <li><b>Start date:</b> <span id="start-date"></span></li>
+        <li><b>End date:</b> <span id="end-date"></span></li>
+        <li><b>Moving time:</b> <span id="moving-time"></span></li>
+        <li><b>Total time:</b> <span id="total-time"></span></li>
+        <li><b>Moving speed:</b> <span id="moving-speed"></span></li>
+        <li><b>Elevation (+):</b> <span id="elevation-gain"></span></li>
+        <li><b>Elevation (-):</b> <span id="elevation-loss"></span></li>
+      </ul>
+    </div>
+    <div id="tracks-list">
+      <ul></ul>
+    </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.js"></script>
+  <script src="assets/leaflet-gpx-master/gpx.js"></script>
+  <script src="assets/main.js"></script>
+    </body>
+</html>
