@@ -3,7 +3,7 @@
     "id" : 1,
     "file": "tracks/2015-09-11-1.gpx",
     "name": "Sortida Tucana S.E.K.",
-    "date" : "2015-09-11T00:00:00.000Z",
+    "date" : "2015-09-11",
     "mode": {
       "type" : "boat",
       "name" : "Tucana Sail 21"
@@ -19,7 +19,7 @@
     "id" : 2,
     "file": "tracks/2015-09-12-1.gpx",
     "name": "Sortida Otro RCNB",
-    "date" : "2015-09-12T00:00:00.000Z",
+    "date" : "2015-09-12",
     "mode": {
       "type" : "boat",
       "name" : "Otro, Onne Tonner ESP2536"
