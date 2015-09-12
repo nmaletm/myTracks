@@ -58,7 +58,7 @@ myTrack.showTrackMenu = function(){
   var arrayLength = this.tracksData.length;
   for (var i = 0; i < arrayLength; i++) {
     var track = this.tracksData[i];
-    var html = '<li data-trackId="'+track['id']+'">'+track['name']+' ('+track['date']+')</li>';
+    var html = '<li data-trackId="'+track['id']+'">'+track['name']+' <i>('+track['date']+')</i></li>';
     $('#tracks-list ul').append(html);
   }
   $('#tracks-list ul li').click(function(){
@@ -88,9 +88,7 @@ myTrack.initMap = function(){
 myTrack.loadTracks = function(){
   var myTrack = this;
   $.getJSON( "tracks.json", function( data ) {
-    console.log(data);
     myTrack.tracksData = data;
-
     myTrack.initTrack();
   });
 };
@@ -138,7 +136,7 @@ myTrack.setTrackData = function(){
   $('#end-date').html(tr.get_end_time());
   $('#moving-time').html(tr.get_duration_string(tr.get_moving_time()));
   $('#total-time').html(tr.get_duration_string(tr.get_total_time()));
-  $('#moving-speed').html(tr.get_moving_speed());
+  $('#moving-speed').html(Math.round(tr.get_moving_speed()));
   $('#elevation-gain').html(Math.round(tr.get_elevation_gain())+' m');
   $('#elevation-loss').html(Math.round(tr.get_elevation_loss())+' m');
 };
