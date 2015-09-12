@@ -16,7 +16,7 @@ myTrack.init = function(){
     myTrack.showTrackMenu();
   });
   $('#track-data').click(function(){
-    $(this).toggleClass('visible');
+    $(this).toggleClass('hidden');
   });
 };
 
@@ -40,6 +40,7 @@ myTrack.initTrack = function(){
 myTrack.renderTrack = function(){
   this.addTrack(this.currentTrackData['file']);
   $('#title').html(this.currentTrackData['name']);;
+  $('#people').html(this.currentTrackData['people'].join(', '));;
 };
 
 
@@ -57,7 +58,7 @@ myTrack.showTrackMenu = function(){
   var arrayLength = this.tracksData.length;
   for (var i = 0; i < arrayLength; i++) {
     var track = this.tracksData[i];
-    var html = '<li data-trackId="'+track['id']+'">'+track['name']+'</li>';
+    var html = '<li data-trackId="'+track['id']+'">'+track['name']+' ('+track['date']+')</li>';
     $('#tracks-list ul').append(html);
   }
   $('#tracks-list ul li').click(function(){
@@ -69,7 +70,7 @@ myTrack.showTrackMenu = function(){
 
 myTrack.initMap = function(){
   this.map = L.map('map').setView([51.505, -0.09], 13);
-  /*
+  //*
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ', {
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
@@ -77,11 +78,11 @@ myTrack.initMap = function(){
       'Imagery © <a href="http://mapbox.com">Mapbox</a>',
     id: 'mapbox.streets'
   }).addTo(this.map);
-  */
+/*  * /
   L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png?', {
     attribution: 'OpenStreetMap',
     maxZoom: 18,
-  }).addTo(this.map);
+  }).addTo(this.map);*/
 };
 
 myTrack.loadTracks = function(){
@@ -115,7 +116,7 @@ myTrack.updateCurrentTrack = function(trackId){
 
 myTrack.addTrack = function(gpx){
   var myTrack = this;
-
+  this.map.setView([38.82259, -2.8125], 5);
   new L.GPX(gpx, {
     async: true,
     marker_options: {
@@ -132,14 +133,14 @@ myTrack.addTrack = function(gpx){
 
 myTrack.setTrackData = function(){
   var tr = this.trackElement;
-  $('#distance').html(tr.get_distance());
+  $('#distance').html(Math.round(tr.get_distance())/1000+' km');
   $('#start-date').html(tr.get_start_time());
   $('#end-date').html(tr.get_end_time());
   $('#moving-time').html(tr.get_duration_string(tr.get_moving_time()));
   $('#total-time').html(tr.get_duration_string(tr.get_total_time()));
   $('#moving-speed').html(tr.get_moving_speed());
-  $('#elevation-gain').html(tr.get_elevation_gain());
-  $('#elevation-loss').html(tr.get_elevation_loss());
+  $('#elevation-gain').html(Math.round(tr.get_elevation_gain())+' m');
+  $('#elevation-loss').html(Math.round(tr.get_elevation_loss())+' m');
 };
 
 

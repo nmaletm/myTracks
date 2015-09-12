@@ -28,11 +28,25 @@ html, body{
 	left: 0px;
 	height: 200px;
 	overflow-y: scroll;
+	opacity: 0.5;
+	cursor: pointer;
 }
-#track-data.visible{
-	width: 60px;
+#track-data.hidden{
+	width: 40px;
 	overflow: hidden;
 	color: white;
+}
+#track-data:hover{
+	opacity: 1;
+}
+#track-data #open{
+	display: none;
+	position: absolute;
+	top: 90px;
+	left: 20px;
+}
+#track-data.hidden #open{
+	display: block;
 }
 
 #toolbar{
@@ -59,11 +73,16 @@ html, body{
 	left: 20px;
 	width: 100%;
 	height: 60px;
-	color: #333;
-	font-weight: bold;
-	cursor: pointer;
 }
 
 #tracks-list li{
+	cursor: pointer;
+}
+#tracks-list{
+	padding: 10px;
+}
+.button{
+	color: #333;
+	font-weight: bold;
 	cursor: pointer;
 }
