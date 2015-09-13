@@ -1,6 +1,42 @@
 [
   {
     "id" : 1,
+    "file": "tracks/2015-08-29-1.gpx",
+    "name": "Barca Roses",
+    "date" : "2015-09-06",
+    "mode": {
+      "type" : "boat",
+      "name" : "DCH-50"
+    },
+    "people" : [
+      "Alberto",
+      "Ana H",
+      "Carlos S",
+      "Marc Cobos",
+      "Dario",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 2,
+    "file": "tracks/2015-09-06-1.gpx",
+    "name": "Caminata Trovit Sant Miquel del Fai",
+    "date" : "2015-09-06",
+    "mode": {
+      "type" : "trekking",
+      "name" : "Sant Miquel del Fai"
+    },
+    "people" : [
+      "Alberto",
+      "Ana H",
+      "Carlos S",
+      "Marc Cobos",
+      "Dario",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 3,
     "file": "tracks/2015-09-11-1.gpx",
     "name": "Sortida Tucana S.E.K.",
     "date" : "2015-09-11",
@@ -16,7 +52,7 @@
     ]
   },
   {
-    "id" : 2,
+    "id" : 4  ,
     "file": "tracks/2015-09-12-1.gpx",
     "name": "Sortida Otro RCNB",
     "date" : "2015-09-12",
