@@ -13,30 +13,30 @@
 
   </head>
   <body class="">
+    <div id="toolbar">
+      <div id="title"><i class="fa icon"></i> <span></span></div>
+      <div id="back-button" class="button"><i class="fa fa-angle-left"></i></div>
+      <div id="info-button" class="button"><i class="fa fa-info"></i></div>
+    </div>
     <div id="map-wrapper">
-      <div id="toolbar">
-        <div id="title"><i class="fa icon"></i> <span></span></div>
-        <div id="back-button" class="button"><i class="fa fa-angle-left"></i> Back</div>
-      </div>
       <div id="map"></div>
     </div>
     <div id="track-data" class="hidden">
-      <ul>
-        <li><b>People:</b> <span id="people"></span></li>
-        <li><b>Distance:</b> <span id="distance"></span></li>
-        <li><b>Moving time:</b> <span id="moving-time"></span></li>
-        <li><b>Total time:</b> <span id="total-time"></span></li>
-        <li><b>Moving speed:</b> <span id="moving-speed"></span></li>
-        <li><b>Elevation (+):</b> <span id="elevation-gain"></span></li>
-        <li><b>Elevation (-):</b> <span id="elevation-loss"></span></li>
-        <li><b>Start date:</b> <span id="start-date"></span></li>
-        <li><b>End date:</b> <span id="end-date"></span></li>
-      </ul>
-      <div id="open" class="button"><i class="fa fa-angle-right"></i></div>
-      <div id="close" class="button"><i class="fa fa-angle-left"></i></div>
+      <div id="content">
+        <ul>
+          <li><b>People:</b> <span id="people"></span></li>
+          <li><b>Distance:</b> <span id="distance"></span></li>
+          <li><b>Moving time:</b> <span id="moving-time"></span></li>
+          <li><b>Total time:</b> <span id="total-time"></span></li>
+          <li><b>Moving speed:</b> <span id="moving-speed"></span></li>
+          <li><b>Elevation (+):</b> <span id="elevation-gain"></span></li>
+          <li><b>Elevation (-):</b> <span id="elevation-loss"></span></li>
+          <li><b>Start date:</b> <span id="start-date"></span></li>
+          <li><b>End date:</b> <span id="end-date"></span></li>
+        </ul>
+      </div>
     </div>
-    <div id="tracks-list">
-      <h1><i class="fa fa-map-marker"></i> myTracks</h1>
+    <div id="tracks-list" class="menu">
       <ul></ul>
     </div>
 
