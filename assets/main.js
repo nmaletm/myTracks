@@ -15,8 +15,9 @@ myTrack.init = function(){
     myTrack.updateCurrentTrack('');
     myTrack.showTrackMenu();
   });
-  $('#track-data').click(function(){
-    $(this).toggleClass('hidden');
+  $('#track-data, #info-button').click(function(){
+    $('#track-data').toggleClass('hidden');
+    $('#info-button').toggleClass('selected');
   });
 };
 
@@ -40,21 +41,23 @@ myTrack.initTrack = function(){
 myTrack.renderTrack = function(){
   this.addTrack(this.currentTrackData['file']);
   $('#title span').html(this.currentTrackData['name']);;
-  $('#people').html(this.currentTrackData['people'].join(', '));
-  $('body').removeClass('boat').removeClass('car').removeClass('trekking');
+  $('#people').html(this.currentTrackData['people'].sort().join(', '));
   $('body').addClass(this.currentTrackData['mode']['type']);
 };
 
 
 myTrack.hideTrackMenu = function(){
-  $('#map-wrapper, #track-data').show();
+  $('#map-wrapper, #track-data, #back-button, #info-button').show();
   $('#tracks-list').hide();
 };
 
 myTrack.showTrackMenu = function(){
   var myTrack = this;
-  $('#map-wrapper, #track-data').hide();
+  $('#map-wrapper, #track-data, #back-button, #info-button').hide();
   $('#tracks-list').show();
+
+  $('#title span').html('myTracks');
+  $('body').removeClass('boat').removeClass('car').removeClass('trekking');
 
   $('#tracks-list ul').empty();
   var arrayLength = this.tracksData.length;
@@ -91,7 +94,7 @@ myTrack.initMap = function(){
 myTrack.loadTracks = function(){
   var myTrack = this;
   $.getJSON( "tracks.json", function( data ) {
-    myTrack.tracksData = data;
+    myTrack.tracksData = data.reverse();
     myTrack.initTrack();
   });
 };
@@ -139,7 +142,7 @@ myTrack.setTrackData = function(){
   $('#end-date').html(tr.get_end_time());
   $('#moving-time').html(tr.get_duration_string(tr.get_moving_time()));
   $('#total-time').html(tr.get_duration_string(tr.get_total_time()));
-  $('#moving-speed').html(Math.round(tr.get_moving_speed()));
+  $('#moving-speed').html(Math.round(tr.get_moving_speed())+' hm/h');
   $('#elevation-gain').html(Math.round(tr.get_elevation_gain())+' m');
   $('#elevation-loss').html(Math.round(tr.get_elevation_loss())+' m');
 };
