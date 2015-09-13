@@ -92,3 +92,18 @@ html, body{
 	font-weight: bold;
 	cursor: pointer;
 }
+
+
+#tracks-list .icon-list{
+	min-width: 20px;
+	text-align: center;
+}
+
+body.boat .icon::before, .icon-list.boat::before {
+    content: "";
+}
+
+body.trekking .icon::before, .icon-list.trekking::before {
+	content: "";
+}
+
