@@ -159,6 +159,10 @@ body.boat .icon::before, .icon-list.boat::before {
 body.trekking .icon::before, .icon-list.trekking::before {
 	content: "";
 }
+body.car .icon::before, .icon-list.car::before {
+	content: "";
+}
+
 
 
 /* Colors - Indigo */
