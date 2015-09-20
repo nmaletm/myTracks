@@ -5,6 +5,7 @@ myTrack.trackElement = undefined;
 myTrack.tracksData = undefined;
 myTrack.currentTrackId = undefined;
 myTrack.currentTrackData = undefined;
+myTrack.gpx = undefined;
 
 myTrack.init = function(){
   var myTrack = this;
@@ -39,6 +40,7 @@ myTrack.initTrack = function(){
 
 
 myTrack.renderTrack = function(){
+  this.removeCurrentTrack();
   this.addTrack(this.currentTrackData['file']);
   $('#title span').html(this.currentTrackData['name']);;
   $('#people').html(this.currentTrackData['people'].sort().join(', '));
@@ -118,10 +120,17 @@ myTrack.updateCurrentTrack = function(trackId){
   window.location.hash = '#'+this.currentTrackId;
 };
 
+myTrack.removeCurrentTrack = function(){
+  if (typeof this.gpx !== 'undefined') {
+    this.gpx.clearLayers();
+    this.gpx = undefined;
+  }
+};
+
 myTrack.addTrack = function(gpx){
   var myTrack = this;
   this.map.setView([38.82259, -2.8125], 5);
-  new L.GPX(gpx, {
+  this.gpx = new L.GPX(gpx, {
     async: true,
     marker_options: {
       startIconUrl: 'assets/leaflet-gpx-master/pin-icon-start.png',
