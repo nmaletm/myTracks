@@ -71,5 +71,21 @@
       "X1",
       "X2"
     ]
+  },
+  {
+    "id" : 5  ,
+    "file": "tracks/2015-09-15-1.gpx",
+    "name": "Viatge Logroño - Zarautz",
+    "date" : "2015-09-12",
+    "mode": {
+      "type" : "car",
+      "name" : "Autocaravana - Sun Traveller 505, Knaus"
+    },
+    "people" : [
+      "Carlos",
+      "Juan Ramón",
+      "Miguel Angel",
+      "Néstor"
+    ]
   }
 ]
