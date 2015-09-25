@@ -101,6 +101,7 @@ myTrack.initMap = function(){
     attribution: 'OpenStreetMap',
     maxZoom: 18,
   }).addTo(this.map);*/
+  L.Control.measureControl().addTo(this.map);
 };
 
 myTrack.loadTracks = function(){
