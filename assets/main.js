@@ -45,6 +45,7 @@ myTrack.renderTrack = function(){
   $('#title span').html(this.currentTrackData['name']);;
   $('#people').html(this.currentTrackData['people'].sort().join(', '));
   $('body').addClass(this.currentTrackData['mode']['type']);
+  this.showLoading();
 };
 
 
@@ -53,8 +54,17 @@ myTrack.hideTrackMenu = function(){
   $('#tracks-list').hide();
 };
 
+myTrack.showLoading = function(){
+  $('#loading').fadeIn(200);
+};
+
+myTrack.hideLoading = function(){
+  $('#loading').fadeOut(600);
+};
+
 myTrack.showTrackMenu = function(){
   var myTrack = this;
+  this.hideLoading();
   $('#map-wrapper, #track-data, #back-button, #info-button').hide();
   $('#tracks-list').show();
 
@@ -141,6 +151,7 @@ myTrack.addTrack = function(gpx){
     myTrack.map.fitBounds(e.target.getBounds());
     myTrack.trackElement = e.target;
     myTrack.setTrackData();
+    myTrack.hideLoading();
   }).addTo(myTrack.map);
 };
 
@@ -151,7 +162,7 @@ myTrack.setTrackData = function(){
   $('#end-date').html(tr.get_end_time());
   $('#moving-time').html(tr.get_duration_string(tr.get_moving_time()));
   $('#total-time').html(tr.get_duration_string(tr.get_total_time()));
-  $('#moving-speed').html(Math.round(tr.get_moving_speed())+' hm/h');
+  $('#moving-speed').html(Math.round(tr.get_moving_speed())+' km/h');
   $('#elevation-gain').html(Math.round(tr.get_elevation_gain())+' m');
   $('#elevation-loss').html(Math.round(tr.get_elevation_loss())+' m');
 };
