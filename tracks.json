@@ -87,5 +87,26 @@
       "Miguel Angel",
       "Néstor"
     ]
+  },
+  {
+    "id" : 6  ,
+    "file": "tracks/2015-09-24-1.gpx",
+    "name": "Sortida 'La Ballena Alegre' - Web team Trovit",
+    "date" : "2015-09-24",
+    "mode": {
+      "type" : "boat",
+      "name" : "Bavaria 40, Azimut 40"
+    },
+    "people" : [
+      "Carlos Saez",
+      "Ana Hernández",
+      "Cristina del Canto",
+      "Elena García",
+      "Marc Cobos",
+      "Dario Barrido",
+      "Xabi Legasa",
+      "Eduard Mateu",
+      "Néstor"
+    ]
   }
 ]
