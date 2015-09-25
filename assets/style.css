@@ -36,7 +36,7 @@ body{
 	top: 50%;
 	left: 50%;
 	font-size: 30px;
-	animation: rotation 2s infinite steps(10);
+	animation: rotation 2s infinite steps(8);
 }
 @keyframes rotation {
 	0% {
