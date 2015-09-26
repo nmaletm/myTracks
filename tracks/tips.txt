@@ -1,0 +1,18 @@
+
+For boat trips, replace:
+
+<ele>(.*)</ele>
+<gpxdata:altitude>(.*)</gpxdata:altitude>
+<gpxdata:verticalSpeed>(.*)</gpxdata:verticalSpeed>
+
+for
+
+<ele>0</ele>
+<gpxdata:altitude>0</gpxdata:altitude>
+<gpxdata:verticalSpeed>0</gpxdata:verticalSpeed>
+
+
+To reduce the size of big gpx, remove the extension part. Replace to "":
+
+"  (?s)<extensions>(.*?)</extensions>
+      "
