@@ -5,11 +5,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2" />
     <meta name="description" content="myTracks - Néstor"/>
+    <meta content="utf-8" http-equiv="encoding">
     <link rel="stylesheet" type="text/css" media="all" href="http://www.storn.es/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.css" />
     <link rel="stylesheet" type="text/css" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.2.3/leaflet.draw.css" />
-    <link rel="stylesheet" type="text/css" media="all" href="assets/leaflet-measure-control/leaflet.measurecontrol.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/Leaflet.Measure/leaflet.measurecontrol.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/Leaflet.Elevation/Leaflet.Elevation-0.0.2.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/Leaflet.EasyButton/src/easy-button.css" />
     <link rel="stylesheet" type="text/css" media="all" href="assets/style.css" />    
   </head>
   <body class="">
@@ -22,7 +25,7 @@
       <div id="map"></div>
     </div>
     <div id="loading">
-      <i class="fa fa-refresh"></i>
+      <i class="fa fa-spinner fa-pulse"></i>
     </div>
     <div id="track-data" class="hidden">
       <div id="content">
@@ -44,11 +47,14 @@
     </div>
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.2.3/leaflet.draw.js"></script>
-  <script src="assets/leaflet-measure-control/leaflet.measurecontrol.js"></script>
-  <script src="assets/leaflet-gpx-master/gpx.js"></script>
-  <script src="assets/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.2.3/leaflet.draw.js"></script>
+    <script src="assets/Leaflet.Measure/leaflet.measurecontrol.js"></script>
+    <script src="assets/Leaflet.Elevation/Leaflet.Elevation-0.0.2.min.js"></script>
+    <script src="assets/Leaflet.Gpx/gpx.js"></script>
+    <script src="assets/Leaflet.EasyButton/src/easy-button.js"></script>
+    <script src="assets/main.js"></script>
     </body>
 </html>

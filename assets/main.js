@@ -6,6 +6,10 @@ myTrack.tracksData = undefined;
 myTrack.currentTrackId = undefined;
 myTrack.currentTrackData = undefined;
 myTrack.gpx = undefined;
+myTrack.elevation = undefined;
+myTrack.mesure = undefined;
+myTrack.lastTrackLine = undefined;
+myTrack.altitudeButton = undefined;
 
 myTrack.init = function(){
   var myTrack = this;
@@ -48,12 +52,6 @@ myTrack.renderTrack = function(){
   this.showLoading();
 };
 
-
-myTrack.hideTrackMenu = function(){
-  $('#map-wrapper, #track-data, #back-button, #info-button').show();
-  $('#tracks-list').hide();
-};
-
 myTrack.showLoading = function(){
   $('#loading').fadeIn(200);
 };
@@ -62,10 +60,19 @@ myTrack.hideLoading = function(){
   $('#loading').fadeOut(600);
 };
 
+myTrack.showTrackMap = function(){
+  $('#map-wrapper, #track-data, #back-button, #info-button').show();
+};
+
+myTrack.hideTrackMap = function(){
+  this.hideLoading();
+  this.hideAltitudeTrack();
+  $('#map-wrapper, #track-data, #back-button, #info-button').hide();
+};
+
 myTrack.showTrackMenu = function(){
   var myTrack = this;
-  this.hideLoading();
-  $('#map-wrapper, #track-data, #back-button, #info-button').hide();
+  this.hideTrackMap();
   $('#tracks-list').show();
 
   $('#title span').html('myTracks');
@@ -83,10 +90,16 @@ myTrack.showTrackMenu = function(){
     myTrack.updateCurrentTrack($(this).attr('data-trackId'));
     myTrack.initTrack();
     myTrack.hideTrackMenu();
+    myTrack.showTrackMap();
   });
 };
 
+myTrack.hideTrackMenu = function(){
+  $('#tracks-list').hide();
+};
+
 myTrack.initMap = function(){
+  var myTrack = this;
   this.map = L.map('map').setView([51.505, -0.09], 13);
   //*
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ', {
@@ -101,7 +114,25 @@ myTrack.initMap = function(){
     attribution: 'OpenStreetMap',
     maxZoom: 18,
   }).addTo(this.map);*/
-  L.Control.measureControl().addTo(this.map);
+  this.mesure = L.Control.measureControl().addTo(this.map);
+  this.altitudeButton = L.easyButton({
+    states: [{
+      stateName: 'altitude-show',
+      icon: 'fa-bar-chart',
+      title: 'Show altitude chart',
+      onClick: function(btn, map) {
+        myTrack.showAltitudeTrack();
+      }
+    }, {
+      stateName: 'altitude-hide',
+      icon: 'fa-bar-chart',
+      title: 'Hide altitude chart',
+      onClick: function(btn, map) {
+        myTrack.hideAltitudeTrack();
+      }
+    }]
+  }).addTo(this.map);
+
 };
 
 myTrack.loadTracks = function(){
@@ -144,16 +175,39 @@ myTrack.addTrack = function(gpx){
   this.gpx = new L.GPX(gpx, {
     async: true,
     marker_options: {
-      startIconUrl: 'assets/leaflet-gpx-master/pin-icon-start.png',
-      endIconUrl: 'assets/leaflet-gpx-master/pin-icon-end.png',
-      shadowUrl: 'assets/leaflet-gpx-master/pin-shadow.png'
+      startIconUrl: 'assets/Leaflet.Gpx/pin-icon-start.png',
+      endIconUrl: 'assets/Leaflet.Gpx/pin-icon-end.png',
+      shadowUrl: 'assets/Leaflet.Gpx/pin-shadow.png'
     }
-  }).on('loaded', function(e) {
+  });
+  this.gpx.on('loaded', function(e) {
     myTrack.map.fitBounds(e.target.getBounds());
     myTrack.trackElement = e.target;
     myTrack.setTrackData();
     myTrack.hideLoading();
   }).addTo(myTrack.map);
+
+  this.gpx.on('addline', function(e){
+    myTrack.lastTrackLine = e.line;
+  });
+};
+
+myTrack.hideAltitudeTrack = function(){
+  this.altitudeButton.state('altitude-show');
+  if (typeof this.elevation !== 'undefined') {
+    this.elevation.clear();
+    this.elevation.removeFrom(this.map);
+    this.elevation = undefined;
+  }
+};
+
+myTrack.showAltitudeTrack = function(){
+  this.altitudeButton.state('altitude-hide');
+  if (typeof this.lastTrackLine !== 'undefined') {
+    this.elevation = L.control.elevation();
+    this.elevation.addTo(this.map);
+    this.elevation.addData(this.lastTrackLine);
+  }
 };
 
 myTrack.setTrackData = function(){
