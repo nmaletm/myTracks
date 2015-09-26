@@ -15,6 +15,7 @@ myTrack.init = function(){
   var myTrack = this;
   this.initMap();
   this.loadTracks();
+  this.initKeyBoard();
 
   $('#back-button').click(function(){
     myTrack.updateCurrentTrack('');
@@ -42,9 +43,17 @@ myTrack.initTrack = function(){
   }
 };
 
+myTrack.preCenterTrack = function(center){
+    if (typeof center !== 'undefined') {
+      this.map.setView([center['lat'], center['lng']], center['zoom'], {animation: true});
+    } else {
+      this.map.setView([40.094882122321145, -1.7907714843749998], 6, {animation: true});
+    }
+};
 
 myTrack.renderTrack = function(){
   this.removeCurrentTrack();
+  this.preCenterTrack(this.currentTrackData['center']);
   this.addTrack(this.currentTrackData['file']);
   $('#title span').html(this.currentTrackData['name']);;
   $('#people').html(this.currentTrackData['people'].sort().join(', '));
@@ -87,11 +96,15 @@ myTrack.showTrackMenu = function(){
     $('#tracks-list ul').append(html);
   }
   $('#tracks-list ul li').click(function(){
-    myTrack.updateCurrentTrack($(this).attr('data-trackId'));
-    myTrack.initTrack();
-    myTrack.hideTrackMenu();
-    myTrack.showTrackMap();
+    myTrack.openTrack($(this).attr('data-trackId'));
   });
+};
+
+myTrack.openTrack = function(trackId){
+    this.updateCurrentTrack(trackId);
+    this.initTrack();
+    this.hideTrackMenu();
+    this.showTrackMap();
 };
 
 myTrack.hideTrackMenu = function(){
@@ -100,7 +113,7 @@ myTrack.hideTrackMenu = function(){
 
 myTrack.initMap = function(){
   var myTrack = this;
-  this.map = L.map('map').setView([51.505, -0.09], 13);
+  this.map = L.map('map').setView([40.094882122321145, -1.7907714843749998], 6);
   //*
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ', {
     maxZoom: 18,
@@ -171,7 +184,6 @@ myTrack.removeCurrentTrack = function(){
 
 myTrack.addTrack = function(gpx){
   var myTrack = this;
-  this.map.setView([38.82259, -2.8125], 5);
   this.gpx = new L.GPX(gpx, {
     async: true,
     marker_options: {
@@ -204,7 +216,11 @@ myTrack.hideAltitudeTrack = function(){
 myTrack.showAltitudeTrack = function(){
   this.altitudeButton.state('altitude-hide');
   if (typeof this.lastTrackLine !== 'undefined') {
-    this.elevation = L.control.elevation();
+    this.elevation = L.control.elevation({
+      position: "bottomright",
+      theme: "steelblue-theme",
+      collapsed: false
+    });
     this.elevation.addTo(this.map);
     this.elevation.addData(this.lastTrackLine);
   }
@@ -222,5 +238,18 @@ myTrack.setTrackData = function(){
   $('#elevation-loss').html(Math.round(tr.get_elevation_loss())+' m');
 };
 
+myTrack.initKeyBoard = function(){
+  var myTrack = this;
+  $(document).on('keydown', function ( e ) {
+    if ( e.ctrlKey && ( String.fromCharCode(e.which) === 'g' || String.fromCharCode(e.which) === 'G' ) ) {
+      var text = '\n\t\t"center": {\n'; 
+      text += '\t\t\t"zoom": ' + myTrack.map.getZoom() + ',\n';
+      text += '\t\t\t"lat": ' + myTrack.map.getCenter().lat + ',\n';
+      text += '\t\t\t"lng": ' + myTrack.map.getCenter().lng + '\n';
+      text += '\t\t},\n';
+      alert(text);
+    }
+  });
+};
 
 myTrack.init();

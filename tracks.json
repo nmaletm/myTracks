@@ -8,6 +8,11 @@
       "type" : "boat",
       "name" : "DCH-50"
     },
+    "center": {
+      "zoom": 13,
+      "lat": 42.24608484877044,
+      "lng": 3.2097335000000182
+    },
     "people" : [
       "Albert",
       "Marc Cobos",
@@ -30,6 +35,11 @@
       "type" : "trekking",
       "name" : "Sant Miquel del Fai"
     },
+    "center": {
+      "zoom": 14,
+      "lat": 41.70912459983358,
+      "lng": 2.211127281188965
+    },
     "people" : [
       "Alberto",
       "Ana",
@@ -48,6 +58,11 @@
       "type" : "boat",
       "name" : "Tucana Sail 21"
     },
+    "center": {
+      "zoom": 14,
+      "lat": 41.20023444183099,
+      "lng": 1.7496245959789645
+    },
     "people" : [
       "Anastasia",
       "Dani",
@@ -63,6 +78,11 @@
     "mode": {
       "type" : "boat",
       "name" : "Otro, Onne Tonner ESP2536"
+    },
+    "center": {
+      "zoom": 12,
+      "lat": 41.36659407058141,
+      "lng": 2.2327434131896418
     },
     "people" : [
       "Aleix",
@@ -81,6 +101,11 @@
       "type" : "car",
       "name" : "Autocaravana - Sun Traveller 505, Knaus"
     },
+    "center": {
+      "zoom": 8,
+      "lat": 42.252911122570005,
+      "lng": -0.15728511381908336
+    },
     "people" : [
       "Carlos",
       "Juan Ramón",
@@ -96,6 +121,11 @@
     "mode": {
       "type" : "boat",
       "name" : "Bavaria 40, Azimut 40"
+    },
+    "center": {
+      "zoom": 13,
+      "lat": 41.182557739253184,
+      "lng": 1.6259500000000005
     },
     "people" : [
       "Carlos Saez",
