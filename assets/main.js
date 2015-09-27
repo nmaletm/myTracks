@@ -85,7 +85,7 @@ myTrack.showTrackMenu = function(){
   $('#tracks-list').show();
 
   $('#title span').html('myTracks');
-  $('body').removeClass('boat').removeClass('car').removeClass('trekking');
+  $('body').removeClass('boat').removeClass('car').removeClass('trekking').removeClass('plane');
 
   $('#tracks-list ul').empty();
   var arrayLength = this.tracksData.length;
