@@ -6,7 +6,6 @@ html, body{
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	overflow-y: hidden;
 }
 body{
 	padding-top: 80px;
@@ -156,7 +155,7 @@ body{
     font-size: 15px;
     font-weight: normal;
     list-style: outside none none;
-    padding: 20px 0 20px 50px;
+    padding: 20px;
 }
 .menu ul li a {
     text-decoration: none;
@@ -175,8 +174,9 @@ body.trekking .icon::before, .icon-list.trekking::before {
 body.car .icon::before, .icon-list.car::before {
 	content: "";
 }
-
-
+body.plane .icon::before, .icon-list.plane::before {
+	content: "";
+}
 
 /* Colors - Indigo */
 body{
@@ -203,5 +203,8 @@ body{
 @media all and (max-width: 600px) {
   #title {
 	font-size: small;
+  }
+  body {
+  	padding-top: 60px;
   }
 }
