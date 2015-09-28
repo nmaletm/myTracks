@@ -16,3 +16,20 @@ To reduce the size of big gpx, remove the extension part. Replace to "":
 
 "  (?s)<extensions>(.*?)</extensions>
       "
+
+
+
+
+
+
+SF trip:
+
+"(?s)<trkpt lat="37.749([0-9]*?)" lon="-122.415([0-9]*?)">(.*?)</trkpt>
+                                                                                                                                                                                            
+                                    "
+
+
+Molts punts a (9 punts):
+<trkpt lat="32.9521567" lon="-97.0635128">
+Un punt a:
+<trkpt lat="46.7270747" lon="-117.1637538">
