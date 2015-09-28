@@ -8,9 +8,9 @@
       "type" : "plane"
     },
     "center": {
-      "zoom": 8,
-      "lat": 37.25699980195075,
-      "lng": -120.4337251
+      "zoom": 3,
+      "lat": 44.95940947469952,
+      "lng": -60.11316045000001
     },
     "people" : [
       "Juan Ramon",
@@ -19,6 +19,25 @@
   },
   {
     "id" : 2,
+    "file": "tracks/2015-05-28-2.gpx",
+    "name": "San Francisco trip",
+    "date" : "2015-09-06",
+    "mode": {
+      "type" : "car",
+      "name" : "Hyundai Elantra"
+    },
+    "center": {
+      "zoom": 7,
+      "lat": 36.43286936166957,
+      "lng": -118.8663724
+    },
+    "people" : [
+      "Juan Ramon",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 3,
     "file": "tracks/2015-08-29-1.gpx",
     "name": "Barca Roses",
     "date" : "2015-09-06",
@@ -45,7 +64,7 @@
     ]
   },
   {
-    "id" : 3,
+    "id" : 4,
     "file": "tracks/2015-09-06-1.gpx",
     "name": "Caminada Trovit Sant Miquel del Fai",
     "date" : "2015-09-06",
@@ -68,7 +87,7 @@
     ]
   },
   {
-    "id" : 4,
+    "id" : 5,
     "file": "tracks/2015-09-11-1.gpx",
     "name": "Sortida Tucana S.E.K.",
     "date" : "2015-09-11",
@@ -89,7 +108,7 @@
     ]
   },
   {
-    "id" : 5,
+    "id" : 6,
     "file": "tracks/2015-09-12-1.gpx",
     "name": "Sortida Otro RCNB",
     "date" : "2015-09-12",
@@ -111,7 +130,7 @@
     ]
   },
   {
-    "id" : 6,
+    "id" : 7,
     "file": "tracks/2015-09-15-1.gpx",
     "name": "Viatge Logroño - Zarautz",
     "date" : "2015-09-12",
@@ -132,7 +151,7 @@
     ]
   },
   {
-    "id" : 7,
+    "id" : 8,
     "file": "tracks/2015-09-24-1.gpx",
     "name": "'La Ballena Alegre' trip - Web team Trovit",
     "date" : "2015-09-24",
