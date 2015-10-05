@@ -175,5 +175,34 @@
       "Eduard Mateu",
       "Néstor"
     ]
+  },
+  {
+    "id" : 9,
+    "file": "tracks/2015-10-03-1.gpx",
+    "name": "Boletus con Biodramina - 'Cal manjo'",
+    "date" : "2015-10-03",
+    "mode": {
+      "type" : "trekking"
+    },
+    "center": {
+      "zoom": 17,
+      "lat": 42.0436070202974,
+      "lng": 1.0642550000000117
+    },
+    "people" : [
+      "Carlos Saez",
+      "Ana Hernández",
+      "Cristina del Canto",
+      "Elena García",
+      "Marc Cobos",
+      "Dario Barrido",
+      "Xabi Legasa",
+      "Eduard Mateu",
+      "Jana Bastida",
+      "Alberto",
+      "Guillem Blanché",
+      "Anna Montane",
+      "Néstor"
+    ]
   }
 ]
