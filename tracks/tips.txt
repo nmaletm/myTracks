@@ -1,4 +1,10 @@
 
+Tools:
+
+* Convert kml to gpx: http://kml2gpx.com/
+* Merge gpx files: http://www.davidgouveia.net/goodies/strava.php
+
+
 For boat trips, replace:
 
 <ele>(.*)</ele>
