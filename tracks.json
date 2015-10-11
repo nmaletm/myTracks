@@ -204,5 +204,26 @@
       "Anna Montane",
       "Néstor"
     ]
+  },
+  {
+    "id" : 10,
+    "file": "tracks/2015-10-11-1.gpx",
+    "name": "Sortida Otro RCNB",
+    "date" : "2015-10-11",
+    "mode": {
+      "type" : "boat",
+      "name" : "Otro, Onne Tonner ESP2536"
+    },
+    "center": {
+      "zoom": 12,
+      "lat": 41.3500103516271,
+      "lng": 2.23846435546875
+    },
+    "people" : [
+      "Aleix",
+      "David",
+      "2 patrons yot",
+      "3 Estudiants PER"
+    ]
   }
 ]
