@@ -3,8 +3,8 @@ var  myTrack = {};
 myTrack.map = undefined;
 myTrack.trackElement = undefined;
 myTrack.tracksData = undefined;
-myTrack.currentTrackId = undefined;
-myTrack.currentTrackData = undefined;
+myTrack.currentTracksIds = undefined;
+myTrack.currentTracksData = undefined;
 myTrack.gpx = undefined;
 myTrack.elevation = undefined;
 myTrack.mesure = undefined;
@@ -18,7 +18,7 @@ myTrack.init = function(){
   this.initKeyBoard();
 
   $('#back-button').click(function(){
-    myTrack.updateCurrentTrack('');
+    myTrack.updateCurrentTrack([]);
     myTrack.showTrackMenu();
   });
   $('#track-data, #info-button').click(function(){
@@ -31,14 +31,14 @@ myTrack.init = function(){
 myTrack.initTrack = function(){
   this.setCurrentTrack();
 
-  if (typeof this.currentTrackId !== 'undefined') {
-    var track = this.getTrack(this.currentTrackId);
-    if (track !== null) {
-      this.currentTrackData = track;
-      this.renderTrack();
+  if (typeof this.currentTracksIds !== 'undefined') {
+    var tracks = this.getTracks(this.currentTracksIds);
+    if (tracks.length > 0) {
+      this.currentTracksData = tracks;
+      this.renderTracks();
     }
   }
-  if (typeof this.currentTrackData === 'undefined') {
+  if (typeof this.currentTracksData === 'undefined') {
     this.showTrackMenu();
   }
 };
@@ -51,13 +51,25 @@ myTrack.preCenterTrack = function(center){
     }
 };
 
-myTrack.renderTrack = function(){
+myTrack.renderTracks = function(){
   this.removeCurrentTrack();
-  this.preCenterTrack(this.currentTrackData['center']);
-  this.addTrack(this.currentTrackData['file']);
-  $('#title span').html(this.currentTrackData['name']);;
-  $('#people').html(this.currentTrackData['people'].sort().join(', '));
-  $('body').addClass(this.currentTrackData['mode']['type']);
+
+  if(this.currentTracksData.length > 1) {
+    $('#title span').html('Tracks');
+    $('#people').html('');
+  } else {
+    this.preCenterTrack(this.currentTracksData['center']);
+    $('#title span').html(this.currentTracksData[0]['name']);
+    $('#people').html(this.currentTracksData[0]['people'].sort().join(', '));
+    $('body').addClass(this.currentTracksData[0]['mode']['type']);
+  }
+
+  var arrayLength = this.currentTracksData.length;
+  for (var i = 0; i < arrayLength; i++) {
+    var track = this.currentTracksData[i];
+    this.addTrack(track['file']);
+  }
+
   this.showLoading();
 };
 
@@ -101,7 +113,7 @@ myTrack.showTrackMenu = function(){
 };
 
 myTrack.openTrack = function(trackId){
-    this.updateCurrentTrack(trackId);
+    this.updateCurrentTrack([trackId]);
     this.initTrack();
     this.hideTrackMenu();
     this.showTrackMap();
@@ -156,23 +168,26 @@ myTrack.loadTracks = function(){
   });
 };
 
-myTrack.getTrack = function(id){
+myTrack.getTracks = function(ids){
   var arrayLength = this.tracksData.length;
+  var tracks = [];
   for (var i = 0; i < arrayLength; i++) {
-    if (this.tracksData[i]['id'] == id) {
-      return this.tracksData[i];
+    if (ids.indexOf(this.tracksData[i]['id']) > -1) {
+      tracks.push(this.tracksData[i]);
     }
   }
-  return null;
+  return tracks;
 };
 
 myTrack.setCurrentTrack = function(){
-  this.currentTrackId = window.location.hash.replace('#', '');
+  tracksIds = window.location.hash.replace('#', '').split('-');
+  for(var i=0; i<tracksIds.length; i++) { tracksIds[i] = parseInt(tracksIds[i], 10); } 
+  this.currentTracksIds = tracksIds;
 };
 
-myTrack.updateCurrentTrack = function(trackId){
-  this.currentTrackId = trackId;
-  window.location.hash = '#'+this.currentTrackId;
+myTrack.updateCurrentTrack = function(tracksId){
+  this.currentTracksIds = tracksId;
+  window.location.hash = '#'+this.currentTracksIds.join('-');
 };
 
 myTrack.removeCurrentTrack = function(){
