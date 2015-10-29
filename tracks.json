@@ -56,11 +56,11 @@
       "Marc Comino",
       "Elisabetz",
       "Jordi Montes",
-      "Néstor",
       "Eric",
       "German",
       "Arnau",
-      "Claudia"
+      "Claudia",
+      "Néstor"
     ]
   },
   {
@@ -103,8 +103,8 @@
     "people" : [
       "Anastasia",
       "Dani",
-      "Néstor",
-      "Omar"
+      "Omar",
+      "Néstor"
     ]
   },
   {
@@ -124,9 +124,9 @@
     "people" : [
       "Aleix",
       "David",
-      "XEduardo",
-      "X1",
-      "X2"
+      "1 estudiant",
+      "2 extres",
+      "Néstor"
     ]
   },
   {
@@ -223,7 +223,27 @@
       "Aleix",
       "David",
       "2 patrons yot",
-      "3 Estudiants PER"
+      "3 Estudiants PER",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 11,
+    "file": "tracks/2015-10-29-1.gpx",
+    "name": "Sortida Avioneta",
+    "date" : "2015-10-29",
+    "mode": {
+      "type" : "plane",
+      "name" : "Cessna 152 - EC-ERV"
+    },
+    "center": {
+      "zoom": 11,
+      "lat": 41.63377282166089,
+      "lng": 2.4449700000000263
+    },
+    "people" : [
+      "Albert Alemany",
+      "Néstor"
     ]
   }
 ]

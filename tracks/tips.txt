@@ -3,7 +3,7 @@ Tools:
 
 * Convert kml to gpx: http://kml2gpx.com/
 * Merge gpx files: http://www.davidgouveia.net/goodies/strava.php
-
+* Beautify XML http://codebeautify.org/xmlviewer
 
 For boat trips, replace:
 
@@ -11,11 +11,7 @@ For boat trips, replace:
 <gpxdata:altitude>(.*)</gpxdata:altitude>
 <gpxdata:verticalSpeed>(.*)</gpxdata:verticalSpeed>
 
-for
-
-<ele>0</ele>
-<gpxdata:altitude>0</gpxdata:altitude>
-<gpxdata:verticalSpeed>0</gpxdata:verticalSpeed>
+for ""
 
 
 To reduce the size of big gpx, remove the extension part. Replace to "":
