@@ -245,5 +245,24 @@
       "Albert Alemany",
       "Néstor"
     ]
+  },
+  {
+    "id" : 12,
+    "file": "tracks/2015-11-19-1.gpx",
+    "name": "Sortida Avioneta",
+    "date" : "2015-11-19",
+    "mode": {
+      "type" : "plane",
+      "name" : "Cessna 152 - EC-ERV"
+    },
+    "center": {
+      "zoom": 11,
+      "lat": 41.57497135728875,
+      "lng": 1.874571321533889
+    },
+    "people" : [
+      "Albert Alemany",
+      "Néstor"
+    ]
   }
 ]
