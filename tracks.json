@@ -264,5 +264,30 @@
       "Albert Alemany",
       "Néstor"
     ]
+  },
+  {
+    "id" : 13,
+    "file": "tracks/2015-11-21-1.gpx",
+    "name": "Pujada al Matagalls",
+    "date" : "2015-11-21",
+    "mode": {
+      "type" : "trekking"
+    },
+    "center": {
+      "zoom": 15,
+      "lat": 41.804720131118174,
+      "lng": 2.401219499999998
+    },
+    "people" : [
+      "Marc Cobos",
+      "Dani Galacho",
+      "Miguel Pérez Pasalodos", 
+      "Raquel Herrera", 
+      "Laura Balbastre Soler", 
+      "Andreu Marimon Aguadé",
+      "Javier Bertos",
+      "Néstor"
+    ]
   }
 ]
+
