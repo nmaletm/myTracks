@@ -134,6 +134,7 @@ myTrack.initMap = function(){
       'Imagery © <a href="http://mapbox.com">Mapbox</a>',
     id: 'mapbox.streets'
   }).addTo(this.map);
+  //L.esri.basemapLayer('Topographic').addTo(this.map);
 /*  * /
   L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png?', {
     attribution: 'OpenStreetMap',
@@ -157,6 +158,12 @@ myTrack.initMap = function(){
       }
     }]
   }).addTo(this.map);
+
+  this.basemaps = document.getElementById('basemaps');
+
+  this.basemaps.addEventListener('change', function(){
+    myTrack.setBasemap(myTrack.basemaps.value);
+  });
 
 };
 
@@ -265,6 +272,24 @@ myTrack.initKeyBoard = function(){
       alert(text);
     }
   });
+};
+
+
+myTrack.setBasemap = function(basemap){
+  if (this.layer) {
+    this.map.removeLayer(this.layer);
+  }
+  this.layer = L.esri.basemapLayer(basemap);
+  this.map.addLayer(this.layer);
+  if (this.layerLabels) {
+    this.map.removeLayer(this.layerLabels);
+  }
+
+  if (basemap === 'ShadedRelief' || basemap === 'Oceans' || basemap === 'Gray' || basemap === 'DarkGray' || basemap === 'Imagery' || basemap === 'Terrain') {
+
+    this.layerLabels = L.esri.basemapLayer(basemap + 'Labels');
+    this.map.addLayer(this.layerLabels);
+  }
 };
 
 myTrack.init();
