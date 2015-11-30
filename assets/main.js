@@ -25,6 +25,9 @@ myTrack.init = function(){
     $('#track-data').toggleClass('hidden');
     $('#info-button').toggleClass('selected');
   });
+  $(window).on('hashchange',function(){ 
+    myTrack.initTrack();
+  });
 };
 
 
@@ -126,7 +129,7 @@ myTrack.hideTrackMenu = function(){
 myTrack.initMap = function(){
   var myTrack = this;
   this.map = L.map('map').setView([40.094882122321145, -1.7907714843749998], 6);
-  //*
+
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ', {
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
@@ -134,12 +137,7 @@ myTrack.initMap = function(){
       'Imagery © <a href="http://mapbox.com">Mapbox</a>',
     id: 'mapbox.streets'
   }).addTo(this.map);
-  //L.esri.basemapLayer('Topographic').addTo(this.map);
-/*  * /
-  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png?', {
-    attribution: 'OpenStreetMap',
-    maxZoom: 18,
-  }).addTo(this.map);*/
+
   this.mesure = L.Control.measureControl().addTo(this.map);
   this.altitudeButton = L.easyButton({
     states: [{
