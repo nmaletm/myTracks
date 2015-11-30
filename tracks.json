@@ -288,6 +288,47 @@
       "Javier Bertos",
       "Néstor"
     ]
+  },
+  {
+    "id" : 14,
+    "file": "tracks/2015-11-28-1.gpx",
+    "name": "Vividores winter trip",
+    "date" : "2015-11-21",
+    "mode": {
+      "type" : "boat"
+    },
+    "center": {
+      "zoom": 13,
+      "lat": 41.217087747236505,
+      "lng": 1.7990480000000098
+    },
+    "people" : [
+      "Marc Cobos",
+      "Juan Ramon",
+      "Lucas Turbas", 
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 15,
+    "file": "tracks/2015-11-29-1.gpx",
+    "name": "Via ferrata 'Roques de l'Empalomar'",
+    "date" : "2015-11-21",
+    "mode": {
+      "type" : "trekking"
+    },
+    "center": {
+      "zoom": 17,
+      "lat": 42.1980875282486,
+      "lng": 1.8053994999999956
+    },
+    "people" : [
+      "Albert Almà",
+      "Eric Lopez",
+      "Jaume Bosch", 
+      "German Navarro",
+      "Néstor"
+    ]
   }
 ]
 
