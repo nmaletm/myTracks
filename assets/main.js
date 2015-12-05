@@ -21,8 +21,7 @@ myTrack.init = function(){
     $('body').addClass('select-mode');
   });
   $('#buttons-list-mode .back-button').click(function(){
-    $('body').removeClass('select-mode');
-    $('#tracks-list li.selected').removeClass('selected');
+    myTrack.closeSelectTracks();
   });
   $('#buttons-list-mode .apply-button').click(function(){
     $('body').removeClass('select-mode');
@@ -43,13 +42,22 @@ myTrack.init = function(){
   });
   */
 };
+myTrack.closeSelectTracks = function(){
+  $('body').removeClass('select-mode');
+  $('#tracks-list li.selected').removeClass('selected');
+};
+
 
 myTrack.openMenuSelectedTracks = function(){
   var listItems = [];
   $('#tracks-list li.selected').each(function(){
     listItems.push($(this).attr('data-trackid'));
   });
-  this.openTrack(listItems);
+  if (listItems.length > 0) {
+    this.openTrack(listItems);
+  } else {
+    this.closeSelectTracks();
+  }
 };
 
 myTrack.initTrack = function(){
