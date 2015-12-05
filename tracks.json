@@ -295,7 +295,8 @@
     "name": "Vividores winter trip",
     "date" : "2015-11-21",
     "mode": {
-      "type" : "boat"
+      "type" : "boat",
+      "name" : "Bavaria 45 - Azimut"
     },
     "center": {
       "zoom": 13,
@@ -327,6 +328,25 @@
       "Eric Lopez",
       "Jaume Bosch", 
       "German Navarro",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 16,
+    "file": "tracks/2015-12-05-1.gpx",
+    "name": "Les Costes del Garraf",
+    "date" : "2015-12-05",
+    "mode": {
+      "type" : "moto",
+      "name" : "Honda CB 250"
+
+    },
+    "center": {
+      "zoom": 14,
+      "lat": 41.247897785630784,
+      "lng": 1.877234461719066
+    },
+    "people" : [
       "Néstor"
     ]
   }

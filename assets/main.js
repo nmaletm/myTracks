@@ -5,7 +5,7 @@ myTrack.trackElement = undefined;
 myTrack.tracksData = undefined;
 myTrack.currentTracksIds = undefined;
 myTrack.currentTracksData = undefined;
-myTrack.gpx = undefined;
+myTrack.allGpx = [];
 myTrack.elevation = undefined;
 myTrack.mesure = undefined;
 myTrack.lastTrackLine = undefined;
@@ -17,19 +17,40 @@ myTrack.init = function(){
   this.loadTracks();
   this.initKeyBoard();
 
-  $('#back-button').click(function(){
+  $('#buttons-list .list-button').click(function(){
+    $('body').addClass('select-mode');
+  });
+  $('#buttons-list-mode .back-button').click(function(){
+    $('body').removeClass('select-mode');
+    $('#tracks-list li.selected').removeClass('selected');
+  });
+  $('#buttons-list-mode .apply-button').click(function(){
+    $('body').removeClass('select-mode');
+    myTrack.openMenuSelectedTracks();
+  });
+  $('#buttons-map .back-button').click(function(){
     myTrack.updateCurrentTrack([]);
     myTrack.showTrackMenu();
   });
-  $('#track-data, #info-button').click(function(){
+  $('#track-data, #buttons-map .info-button').click(function(){
     $('#track-data').toggleClass('hidden');
-    $('#info-button').toggleClass('selected');
+    $('#buttons-map .info-button').toggleClass('selected');
   });
-  $(window).on('hashchange',function(){ 
+  /*
+  $(window).on('hashchange',function(){
+    myTrack.removeCurrentTrack();
     myTrack.initTrack();
   });
+  */
 };
 
+myTrack.openMenuSelectedTracks = function(){
+  var listItems = [];
+  $('#tracks-list li.selected').each(function(){
+    listItems.push($(this).attr('data-trackid'));
+  });
+  this.openTrack(listItems);
+};
 
 myTrack.initTrack = function(){
   this.setCurrentTrack();
@@ -55,7 +76,6 @@ myTrack.preCenterTrack = function(center){
 };
 
 myTrack.renderTracks = function(){
-  this.removeCurrentTrack();
 
   if(this.currentTracksData.length > 1) {
     $('#title span').html('Tracks');
@@ -64,7 +84,7 @@ myTrack.renderTracks = function(){
     this.preCenterTrack(this.currentTracksData['center']);
     $('#title span').html(this.currentTracksData[0]['name']);
     $('#people').html(this.currentTracksData[0]['people'].sort().join(', '));
-    $('body').addClass(this.currentTracksData[0]['mode']['type']);
+    $('body').addClass('mode-'+this.currentTracksData[0]['mode']['type']);
   }
 
   var arrayLength = this.currentTracksData.length;
@@ -85,13 +105,15 @@ myTrack.hideLoading = function(){
 };
 
 myTrack.showTrackMap = function(){
-  $('#map-wrapper, #track-data, #back-button, #info-button').show();
+  $('#map-wrapper, #track-data, #buttons-map').show();
+  $('#buttons-list, #buttons-list-mode').hide();
 };
 
 myTrack.hideTrackMap = function(){
   this.hideLoading();
   this.hideAltitudeTrack();
-  $('#map-wrapper, #track-data, #back-button, #info-button').hide();
+  $('#map-wrapper, #track-data, #buttons-map').hide();
+  $('#buttons-list').show();
 };
 
 myTrack.showTrackMenu = function(){
@@ -100,7 +122,11 @@ myTrack.showTrackMenu = function(){
   $('#tracks-list').show();
 
   $('#title span').html('myTracks');
-  $('body').removeClass('boat').removeClass('car').removeClass('trekking').removeClass('plane');
+
+  //$('body').removeClass('boat').removeClass('car').removeClass('trekking').removeClass('plane').removeClass('moto');
+  $('body').removeClass(function (index, css) {
+    return (css.match (/(^|\s)mode-\S+/g) || []).join(' ');
+  });
 
   $('#tracks-list ul').empty();
   var arrayLength = this.tracksData.length;
@@ -111,15 +137,26 @@ myTrack.showTrackMenu = function(){
     $('#tracks-list ul').append(html);
   }
   $('#tracks-list ul li').click(function(){
-    myTrack.openTrack($(this).attr('data-trackId'));
+    myTrack.clickTrackMenuItem($(this).attr('data-trackId'));
   });
+};
+myTrack.clickTrackMenuItem = function(trackId){
+    if ($('.select-mode').length > 0) {
+      $('li[data-trackid='+trackId+']').toggleClass('selected');
+    } else {
+      this.openTrack(trackId);
+    }
 };
 
 myTrack.openTrack = function(trackId){
-    this.updateCurrentTrack([trackId]);
-    this.initTrack();
-    this.hideTrackMenu();
-    this.showTrackMap();
+  this.removeCurrentTrack();
+  if (!$.isArray(trackId)) {
+    trackId = [trackId];
+  }
+  this.updateCurrentTrack(trackId);
+  this.initTrack();
+  this.hideTrackMenu();
+  this.showTrackMap();
 };
 
 myTrack.hideTrackMenu = function(){
@@ -196,32 +233,37 @@ myTrack.updateCurrentTrack = function(tracksId){
 };
 
 myTrack.removeCurrentTrack = function(){
-  if (typeof this.gpx !== 'undefined') {
-    this.gpx.clearLayers();
-    this.gpx = undefined;
+  if (this.allGpx.length > 0) {
+    var arrayLength = this.allGpx.length;
+    for (var i = 0; i < arrayLength; i++) {
+      this.allGpx[i].clearLayers();
+      delete this.allGpx[i];
+    }
   }
+  this.allGpx = [];
 };
 
 myTrack.addTrack = function(gpx){
   var myTrack = this;
-  this.gpx = new L.GPX(gpx, {
+  var gpx = new L.GPX(gpx, {
     async: true,
     marker_options: {
-      startIconUrl: 'assets/Leaflet.Gpx/pin-icon-start.png',
-      endIconUrl: 'assets/Leaflet.Gpx/pin-icon-end.png',
-      shadowUrl: 'assets/Leaflet.Gpx/pin-shadow.png'
+      startIconUrl: undefined,//'assets/Leaflet.Gpx/pin-icon-start.png',
+      endIconUrl: undefined,//'assets/Leaflet.Gpx/pin-icon-end.png',
+      shadowUrl: undefined,//'assets/Leaflet.Gpx/pin-shadow.png'
     }
   });
-  this.gpx.on('loaded', function(e) {
+  gpx.on('loaded', function(e) {
     myTrack.map.fitBounds(e.target.getBounds());
     myTrack.trackElement = e.target;
     myTrack.setTrackData();
     myTrack.hideLoading();
   }).addTo(myTrack.map);
 
-  this.gpx.on('addline', function(e){
+  gpx.on('addline', function(e){
     myTrack.lastTrackLine = e.line;
   });
+  this.allGpx.push(gpx);
 };
 
 myTrack.hideAltitudeTrack = function(){
