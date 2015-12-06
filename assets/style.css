@@ -198,6 +198,9 @@ body.mode-plane .icon::before, .icon-list.plane::before {
 body.mode-moto .icon::before, .icon-list.moto::before {
 	content: "";
 }
+body.mode-bike .icon::before, .icon-list.bike::before {
+	content: "";
+}
 
 /*
 	Colors - Indigo 
