@@ -349,6 +349,26 @@
     "people" : [
       "Néstor"
     ]
+  },
+  {
+    "id" : 17,
+    "file": "tracks/2015-12-06-1.gpx",
+    "name": "Sortida 420",
+    "date" : "2015-12-06",
+    "mode": {
+      "type" : "boat",
+      "name" : "420"
+
+    },
+    "center": {
+      "zoom": 17,
+      "lat": 41.38730489145538,
+      "lng": 2.2061179205796044
+    },
+    "people" : [
+      "Dani",
+      "Néstor"
+    ]
   }
 ]
 
