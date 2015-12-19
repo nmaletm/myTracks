@@ -369,6 +369,30 @@
       "Dani",
       "Néstor"
     ]
+  },
+  {
+    "id" : 18,
+    "file": "tracks/2015-12-12-1.gpx",
+    "name": "Sortida Otro RCNB",
+    "date" : "2015-12-12",
+    "mode": {
+      "type" : "boat",
+      "name" : "Otro, Onne Tonner ESP2536"
+    },
+    "center": {
+      "zoom": 13,
+      "lat": 41.356082385419924,
+      "lng": 2.220893790947489
+    },
+    "people" : [
+      "Aleix",
+      "David",
+      "Rafa",
+      "Toni",
+      "Joao",
+      "Maria",
+      "Néstor"
+    ]
   }
 ]
 
