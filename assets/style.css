@@ -180,26 +180,42 @@ body{
 	margin-bottom: 5px;
 }
 
-body .icon::before {
-    content: "";
+
+body .track-icon::before {
+    content: "";
 }
-body.mode-boat .icon::before, .icon-list.boat::before {
-    content: "";
+body.mode-boat .track-icon::before, .icon-list.boat::before {
+    content: "";
 }
-body.mode-trekking .icon::before, .icon-list.trekking::before {
-	content: "";
+body.mode-trekking .track-icon::before, .icon-list.trekking::before {
+	content: "";
 }
-body.mode-car .icon::before, .icon-list.car::before {
-	content: "";
+body.mode-car .track-icon::before, .icon-list.car::before {
+	content: "";
 }
-body.mode-plane .icon::before, .icon-list.plane::before {
-	content: "";
+body.mode-plane .track-icon::before, .icon-list.plane::before {
+	content: "";
 }
-body.mode-moto .icon::before, .icon-list.moto::before {
-	content: "";
+body.mode-airplane .track-icon::before, .icon-list.airplane::before {
+	content: "";
 }
-body.mode-bike .icon::before, .icon-list.bike::before {
-	content: "";
+body.mode-moto .track-icon::before, .icon-list.moto::before {
+	content: "";
+}
+body.mode-bike .track-icon::before, .icon-list.bike::before {
+	content: "";
+}
+body.mode-skiing .track-icon::before, .icon-list.skiing::before {
+	content: "";
+}
+body.mode-helicopter .track-icon::before, .icon-list.helicopter::before {
+	content: "";
+}
+body.mode-run .track-icon::before, .icon-list.run::before {
+	content: "";
+}
+body.mode-swim .track-icon::before, .icon-list.swim::before {
+	content: "";
 }
 
 /*
