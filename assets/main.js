@@ -140,7 +140,7 @@ myTrack.showTrackMenu = function(){
   var arrayLength = this.tracksData.length;
   for (var i = 0; i < arrayLength; i++) {
     var track = this.tracksData[i];
-    var html = '<li data-trackId="'+track['id']+'"><i class="fa icon-list '+track['mode']['type']+'"></i> ';
+    var html = '<li data-trackId="'+track['id']+'"><i class="icon-list '+track['mode']['type']+'"></i> ';
     html += track['name']+' <i>('+track['date']+')</i></li>';
     $('#tracks-list ul').append(html);
   }

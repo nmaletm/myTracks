@@ -233,7 +233,7 @@
     "name": "Sortida Avioneta",
     "date" : "2015-10-29",
     "mode": {
-      "type" : "plane",
+      "type" : "airplane",
       "name" : "Cessna 152 - EC-ERV"
     },
     "center": {
@@ -252,7 +252,7 @@
     "name": "Sortida Avioneta",
     "date" : "2015-11-19",
     "mode": {
-      "type" : "plane",
+      "type" : "airplane",
       "name" : "Cessna 152 - EC-ERV"
     },
     "center": {
@@ -391,6 +391,85 @@
       "Toni",
       "Joao",
       "Maria",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 19,
+    "file": "tracks/2016-01-12-1.gpx",
+    "name": "Esquiada puf puf - Dia 2",
+    "date" : "2016-01-13",
+    "mode": {
+      "type" : "skiing",
+      "name" : "Andorra - Vallnord"
+    },
+    "people" : [
+      "Albert",
+      "Maki",
+      "Marc Cobos",
+      "David",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 21,
+    "file": "tracks/2016-01-13-1.gpx",
+    "name": "Esquiada puf puf - Dia 3",
+    "date" : "2016-01-13",
+    "mode": {
+      "type" : "skiing",
+      "name" : "Andorra - Vallnord"
+    },
+    "people" : [
+      "Albert",
+      "Maki",
+      "Marc Cobos",
+      "David",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 22,
+    "file": "tracks/2016-01-14-1.gpx",
+    "name": "Esquiada puf puf - Dia 4",
+    "date" : "2016-01-14",
+    "mode": {
+      "type" : "skiing",
+      "name" : "Andorra - Vallnord"
+    },
+    "people" : [
+      "Albert",
+      "Maki",
+      "Marc Cobos",
+      "David",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 23,
+    "file": "tracks/2016-01-16-1.gpx",
+    "name": "Bici per sant gervasi",
+    "date" : "2016-01-167",
+    "mode": {
+      "type" : "bike",
+      "name" : "Dahon"
+    },
+    "people" : [
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 24,
+    "file": "tracks/2016-01-17-1.gpx",
+    "name": "Meetup Giambattista",
+    "date" : "2016-01-17",
+    "mode": {
+      "type" : "boat",
+      "name" : "Rival 38"
+    },
+    "people" : [
+      "Giambattista",
+      "4 més",
       "Néstor"
     ]
   }
