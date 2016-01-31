@@ -449,7 +449,7 @@
     "id" : 23,
     "file": "tracks/2016-01-16-1.gpx",
     "name": "Bici per sant gervasi",
-    "date" : "2016-01-167",
+    "date" : "2016-01-16",
     "mode": {
       "type" : "bike",
       "name" : "Dahon"
@@ -470,6 +470,19 @@
     "people" : [
       "Giambattista",
       "4 més",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 25,
+    "file": "tracks/2016-01-31-1.gpx",
+    "name": "Bici pel port",
+    "date" : "2016-01-31",
+    "mode": {
+      "type" : "bike",
+      "name" : "Dahon"
+    },
+    "people" : [
       "Néstor"
     ]
   }
