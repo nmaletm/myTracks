@@ -502,6 +502,24 @@
   },
   {
     "id" : 25,
+    "file": "tracks/2016-01-31-1.gpx",
+    "name": "Bici pel port",
+    "date" : "2016-01-31",
+    "mode": {
+      "type" : "bike",
+      "name" : "Dahon"
+    },
+    "center": {
+      "zoom": 13,
+      "lat": 41.372082167345916,
+      "lng": 2.162687592210384
+    },
+    "people" : [
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 26,
     "file": "tracks/2016-02-07-1.gpx",
     "name": "Sortida Otro RCNB",
     "date" : "2016-02-07",
@@ -520,19 +538,6 @@
       "Juan",
       "Joau",
       "2 extres",
-      "Néstor"
-    ]
-  },
-  {
-    "id" : 25,
-    "file": "tracks/2016-01-31-1.gpx",
-    "name": "Bici pel port",
-    "date" : "2016-01-31",
-    "mode": {
-      "type" : "bike",
-      "name" : "Dahon"
-    },
-    "people" : [
       "Néstor"
     ]
   }
