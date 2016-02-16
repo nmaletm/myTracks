@@ -403,14 +403,11 @@
       "type" : "skiing",
       "name" : "Andorra - Vallnord"
     },
-<<<<<<< HEAD
-=======
     "center": {
       "zoom": 14,
       "lat": 42.536382322190384,
       "lng": 1.468309000000012
     },
->>>>>>> ed9e93b9b3c435ca99d2ab1d84acbfaff5a57d8a
     "people" : [
       "Albert",
       "Maki",
@@ -428,14 +425,11 @@
       "type" : "skiing",
       "name" : "Andorra - Vallnord"
     },
-<<<<<<< HEAD
-=======
     "center": {
       "zoom": 16,
       "lat": 42.56920211556703,
       "lng": 1.457884499999995
     },
->>>>>>> ed9e93b9b3c435ca99d2ab1d84acbfaff5a57d8a
     "people" : [
       "Albert",
       "Maki",
@@ -517,7 +511,7 @@
     },
     "people" : [
       "Néstor"
-    ]
+    ],
     "center": {
       "zoom": 13,
       "lat": 41.372082167345916,
@@ -546,7 +540,24 @@
       "Toni",
       "Juan",
       "Joau",
-      "2 extres",
+      "2 extres"
+    ]
+  },
+  {
+    "id" : 27,
+    "file": "tracks/2016-02-14-1.gpx",
+    "name": "Bici pel forum",
+    "date" : "2016-02-14",
+    "mode": {
+      "type" : "bike",
+      "name" : "Dahon"
+    },
+    "center": {
+      "zoom": 13,
+      "lat": 41.387949766144914,
+      "lng": 2.1830177307128906
+    },
+    "people" : [
       "Néstor"
     ]
   }
