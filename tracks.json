@@ -403,6 +403,14 @@
       "type" : "skiing",
       "name" : "Andorra - Vallnord"
     },
+<<<<<<< HEAD
+=======
+    "center": {
+      "zoom": 14,
+      "lat": 42.536382322190384,
+      "lng": 1.468309000000012
+    },
+>>>>>>> ed9e93b9b3c435ca99d2ab1d84acbfaff5a57d8a
     "people" : [
       "Albert",
       "Maki",
@@ -420,6 +428,14 @@
       "type" : "skiing",
       "name" : "Andorra - Vallnord"
     },
+<<<<<<< HEAD
+=======
+    "center": {
+      "zoom": 16,
+      "lat": 42.56920211556703,
+      "lng": 1.457884499999995
+    },
+>>>>>>> ed9e93b9b3c435ca99d2ab1d84acbfaff5a57d8a
     "people" : [
       "Albert",
       "Maki",
@@ -436,6 +452,11 @@
     "mode": {
       "type" : "skiing",
       "name" : "Andorra - Vallnord"
+    },
+    "center": {
+      "zoom": 15,
+      "lat": 42.62602753769532,
+      "lng": 1.4938280000000326
     },
     "people" : [
       "Albert",
@@ -454,6 +475,11 @@
       "type" : "bike",
       "name" : "Dahon"
     },
+    "center": {
+      "zoom": 14,
+      "lat": 41.396797518808725,
+      "lng": 2.126711080784114
+    },
     "people" : [
       "Néstor"
     ]
@@ -467,9 +493,16 @@
       "type" : "boat",
       "name" : "Rival 38"
     },
+    "center": {
+      "zoom": 15,
+      "lat": 41.38217832610287,
+      "lng": 2.2190235788023394
+    },
     "people" : [
       "Giambattista",
-      "4 més",
+      "Dave",
+      "Jordi Fernández",
+      "1 más",
       "Néstor"
     ]
   },
@@ -483,6 +516,37 @@
       "name" : "Dahon"
     },
     "people" : [
+      "Néstor"
+    ]
+    "center": {
+      "zoom": 13,
+      "lat": 41.372082167345916,
+      "lng": 2.162687592210384
+    },
+    "people" : [
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 26,
+    "file": "tracks/2016-02-07-1.gpx",
+    "name": "Sortida Otro RCNB",
+    "date" : "2016-02-07",
+    "mode": {
+      "type" : "boat",
+      "name" : "Otro, Onne Tonner ESP2536"
+    },
+    "center": {
+      "zoom": 13,
+      "lat": 41.34419832161121,
+      "lng": 2.2181200515499633
+    },
+    "people" : [
+      "Aleix",
+      "Toni",
+      "Juan",
+      "Joau",
+      "2 extres",
       "Néstor"
     ]
   }
