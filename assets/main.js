@@ -207,6 +207,12 @@ myTrack.initMap = function(){
   this.basemaps.addEventListener('change', function(){
     myTrack.setBasemap(myTrack.basemaps.value);
   });
+/*
+  // To generate points
+  this.map.on('click', function(e) {
+    console.log('<trkpt lat="' + e.latlng.lat + '" lon="' + e.latlng.lng + '">');
+  });
+*/
 
 };
 

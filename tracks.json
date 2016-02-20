@@ -560,6 +560,27 @@
     "people" : [
       "Néstor"
     ]
+  },
+  {
+    "id" : 28,
+    "file": "tracks/2016-02-20-1.gpx",
+    "name": "Sortida 420",
+    "date" : "2016-02-20",
+    "mode": {
+      "type" : "boat",
+      "name" : "420"
+
+    },
+    "center": {
+      "zoom": 15,
+      "lat": 41.38938806522147,
+      "lng": 2.212947453374259
+    },
+    "people" : [
+      "Omar",
+      "Gloria",
+      "Néstor"
+    ]
   }
 ]
 
