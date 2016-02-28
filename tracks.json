@@ -581,6 +581,47 @@
       "Gloria",
       "Néstor"
     ]
-  }
+  },
+  {
+    "id" : 29,
+    "file": "tracks/2016-02-21-1.gpx",
+    "name": "Sortida Otro RCNB",
+    "date" : "2016-02-21",
+    "mode": {
+      "type" : "boat",
+      "name" : "Otro, Onne Tonner ESP2536"
+    },
+    "center": {
+      "zoom": 12,
+      "lat": 41.31025058586023,
+      "lng": 2.2443471103927415
+    },
+    "people" : [
+      "Jose",
+      "Edu",
+      "Maria",
+      "Juan",
+      "Joau",
+      "1 extra"
+    ]
+  },
+  {
+    "id" : 30,
+    "file": "tracks/2016-02-28-1.gpx",
+    "name": "Bici fins tibidabo",
+    "date" : "2016-02-28",
+    "mode": {
+      "type" : "bike",
+      "name" : "Dahon"
+    },
+    "center": {
+      "zoom": 13,
+      "lat": 41.41378628277284,
+      "lng": 2.155441730285199
+    },
+    "people" : [
+      "Néstor"
+    ]
+  } 
 ]
 
