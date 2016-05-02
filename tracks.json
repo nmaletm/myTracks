@@ -110,11 +110,11 @@
   {
     "id" : 6,
     "file": "tracks/2015-09-12-1.gpx",
-    "name": "Sortida Otro RCNB",
+    "name": "Sortida OTRO RCNB",
     "date" : "2015-09-12",
     "mode": {
       "type" : "boat",
-      "name" : "Otro, Onne Tonner ESP2536"
+      "name" : "OTRO, Onne Tonner ESP2536"
     },
     "center": {
       "zoom": 12,
@@ -208,11 +208,11 @@
   {
     "id" : 10,
     "file": "tracks/2015-10-11-1.gpx",
-    "name": "Sortida Otro RCNB",
+    "name": "Sortida OTRO RCNB",
     "date" : "2015-10-11",
     "mode": {
       "type" : "boat",
-      "name" : "Otro, Onne Tonner ESP2536"
+      "name" : "OTRO, Onne Tonner ESP2536"
     },
     "center": {
       "zoom": 12,
@@ -373,11 +373,11 @@
   {
     "id" : 18,
     "file": "tracks/2015-12-12-1.gpx",
-    "name": "Sortida Otro RCNB",
+    "name": "Sortida OTRO RCNB",
     "date" : "2015-12-12",
     "mode": {
       "type" : "boat",
-      "name" : "Otro, Onne Tonner ESP2536"
+      "name" : "OTRO, Onne Tonner ESP2536"
     },
     "center": {
       "zoom": 13,
@@ -524,11 +524,11 @@
   {
     "id" : 26,
     "file": "tracks/2016-02-07-1.gpx",
-    "name": "Sortida Otro RCNB",
+    "name": "Sortida OTRO RCNB",
     "date" : "2016-02-07",
     "mode": {
       "type" : "boat",
-      "name" : "Otro, Onne Tonner ESP2536"
+      "name" : "OTRO, Onne Tonner ESP2536"
     },
     "center": {
       "zoom": 13,
@@ -585,11 +585,11 @@
   {
     "id" : 29,
     "file": "tracks/2016-02-21-1.gpx",
-    "name": "Sortida Otro RCNB",
+    "name": "Sortida OTRO RCNB",
     "date" : "2016-02-21",
     "mode": {
       "type" : "boat",
-      "name" : "Otro, Onne Tonner ESP2536"
+      "name" : "OTRO, Onne Tonner ESP2536"
     },
     "center": {
       "zoom": 12,
@@ -632,6 +632,11 @@
       "type" : "bike",
       "name" : "Dahon"
     },
+    "center": {
+      "zoom": 13,
+      "lat": 41.3746148183658,
+      "lng": 2.1480351453667
+    },
     "people" : [
       "Néstor"
     ]
@@ -644,6 +649,11 @@
     "mode": {
       "type" : "bike",
       "name" : "Dahon"
+    },
+    "center": {
+      "zoom": 14,
+      "lat": 41.40373257994162,
+      "lng": 2.1524335490559654
     },
     "people" : [
       "Néstor"
@@ -658,9 +668,78 @@
       "type" : "bike",
       "name" : "Dahon"
     },
+    "center": {
+      "zoom": 14,
+      "lat": 41.40371251610427,
+      "lng": 2.15232799999999
+    },
     "people" : [
       "Néstor"
     ]
-  }  
+  },
+  {
+    "id" : 34,
+    "file": "tracks/2016-04-09-1.gpx",
+    "name": "Bici ruta sant gervasi",
+    "date" : "2016-04-09",
+    "mode": {
+      "type" : "bike",
+      "name" : "Dahon"
+    },
+    "center": {
+      "zoom": 15,
+      "lat": 41.38931934768796,
+      "lng": 2.121333084071191
+    },
+    "people" : [
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 35,
+    "file": "tracks/2016-04-16-1.gpx",
+    "name": "Regata Sitges OTRO RCNB",
+    "date" : "2016-04-16",
+    "mode": {
+      "type" : "boat",
+      "name" : "OTRO, Onne Tonner ESP2536"
+    },
+    "center": {
+      "zoom": 11,
+      "lat": 41.29630462056779,
+      "lng": 2.0531360339392535
+    },
+    "people" : [
+      "Edu",
+      "David",
+      "Maria",
+      "Joau",
+      "Toni",
+      "Pau",
+      "Carlos",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 36,
+    "file": "tracks/2016-04-17-1.gpx",
+    "name": "Sortida prePER Eric",
+    "date" : "2016-04-17",
+    "mode": {
+      "type" : "boat",
+      "name" : "Jeanneau Sun 25, Azimut 25"
+    },
+    "center": {
+      "zoom": 14,
+      "lat": 41.19894348274454,
+      "lng": 1.6977010108546509
+    },
+    "people" : [
+      "Eric",
+      "MJ",
+      "Maki",
+      "Néstor"
+    ]
+  }
 ]
 
