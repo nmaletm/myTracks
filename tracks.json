@@ -69,8 +69,7 @@
     "name": "Caminada Trovit Sant Miquel del Fai",
     "date" : "2015-09-06",
     "mode": {
-      "type" : "trekking",
-      "name" : "Sant Miquel del Fai"
+      "type" : "trekking"
     },
     "center": {
       "zoom": 14,
@@ -739,6 +738,215 @@
       "MJ",
       "Maki",
       "Néstor"
+    ]
+  },
+  {
+    "id" : 37,
+    "file": "tracks/2016-05-12-1.gpx",
+    "name": "Sortida Avioneta Segur",
+    "date" : "2016-05-12",
+    "mode": {
+      "type" : "plane",
+      "name" : "Cessna 152"
+    },
+    "center": {
+      "zoom": 10,
+      "lat": 41.37612542151557,
+      "lng": 1.8468572292494079
+    },
+    "people" : [
+      "Albert",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 38,
+    "file": "tracks/2016-05-29-1.gpx",
+    "name": "Sortida OTRO",
+    "date" : "2016-05-29",
+    "mode": {
+      "type" : "boat",
+      "name" : "OTRO, Onne Tonner ESP2536"
+    },
+    "center": {
+      "zoom": 12,
+      "lat": 41.345999726951376,
+      "lng": 2.2066199965795796
+    },
+    "people" : [
+      "Aleix",
+      "Carmen",
+      "Pau",
+      "Carlos",
+      "3 PERs més",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 39,
+    "file": "tracks/2016-06-02-1.gpx",
+    "name": "Sortida post curro",
+    "date" : "2016-06-02",
+    "mode": {
+      "type" : "boat",
+      "name" : "Ciclades, Carlos ship"
+    },
+    "center": {
+      "zoom": 14,
+      "lat": 41.39113612269764,
+      "lng": 2.2158098733073395
+    },
+    "people" : [
+      "Carlos",
+      "Dani",
+      "Omar",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 40,
+    "file": "tracks/2016-06-04-1.gpx",
+    "name": "En bici fins Badalona",
+    "date" : "2016-06-04",
+    "mode": {
+      "type" : "bike",
+      "name" : "Dahon"
+    },
+    "center": {
+      "zoom": 12,
+      "lat": 41.408488361971926,
+      "lng": 2.1967506408691406
+    },
+    "people" : [
+      "Xabi",
+      "Amiga xabi",
+      "Néstor"
+    ],
+    "comments": [
+      "Falta la parte del principio"
+    ]
+  },
+  {
+    "id" : 41,
+    "file": "tracks/2016-06-05-1.gpx",
+    "name": "Regata Conde Godo",
+    "date" : "2016-06-05",
+    "mode": {
+      "type" : "boat",
+      "name" : "OTRO, Onne Tonner ESP2536"
+    },
+    "center": {
+      "zoom": 13,
+      "lat": 41.37862478034179,
+      "lng": 2.236877996476583
+    },
+    "people" : [
+      "Edu",
+      "Aleix",
+      "Carmen",
+      "David",
+      "Maria",
+      "Joau",
+      "Pau",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 42,
+    "file": "tracks/2016-06-19-1.gpx",
+    "name": "Caminada Garraf",
+    "date" : "2016-06-19",
+    "mode": {
+      "type" : "trekking"
+    },
+    "center": {
+      "zoom": 14,
+      "lat": 41.264946559020466,
+      "lng": 1.9104284327494803
+    },
+    "people" : [
+      "Nasta",
+      "Néstor"
+    ]
+  },
+  {
+    "id" : 43,
+    "file": "tracks/2016-06-23-1.gpx",
+    "name": "Badalona-Pollença (anada)",
+    "date" : "2016-06-23",
+    "mode": {
+      "type" : "boat",
+      "name" : "Hanse 355, Indic"
+    },
+    "center": {
+      "zoom": 8,
+      "lat": 40.66792326511747,
+      "lng": 2.7386213606249044
+    },
+    "people" : [
+      "Edu",
+      "Pau",
+      "Carmen",
+      "David",
+      "Maria",
+      "Joau",
+      "Carlos",
+      "Juan",
+      "Néstor"
+    ],
+    "comments": [
+      "Falta la parte del principio (desembarque y visita a la gasolinera)",
+      "Encallamos el ancla en la bahía"
+    ]
+  },
+  {
+    "id" : 44,
+    "file": "tracks/2016-06-25-1.gpx",
+    "name": "Badalona-Pollença (tornada)",
+    "date" : "2016-06-25",
+    "mode": {
+      "type" : "boat",
+      "name" : "Hanse 355, Indic"
+    },
+    "people" : [
+      "Edu",
+      "Pau",
+      "Carmen",
+      "David",
+      "Maria",
+      "Joau",
+      "Carlos",
+      "Juan",
+      "Néstor"
+    ],
+    "comments": [
+      "Falta la parte del principio (desembarque)",
+      "Nos quedamos sin bateria a medio trayecto"
+    ]
+  },
+  {
+    "id" : 9999,
+    "file": "tracks/2016-07-02-1.gpx",
+    "name": "Apps pierde la helice",
+    "date" : "2016-07-02",
+    "mode": {
+      "type" : "boat",
+      "name" : "Ro 400"
+    },
+    "people" : [
+      "JJ",
+      "Carlota",
+      "Carlos",
+      "Bea",
+      "Mauricio",
+      "Martina",
+      "Sirag",
+      "Néstor"
+    ],
+    "comments": [
+      "Falta la parte del final",
+      "Nos quedamos sin helice",
+      "Nos remolcaron a puerto"
     ]
   }
 ]
