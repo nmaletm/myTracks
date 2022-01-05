@@ -175,8 +175,9 @@ myTrack.initMap = function(){
   var myTrack = this;
   this.map = L.map('map').setView([40.094882122321145, -1.7907714843749998], 6);
 
-  var token = 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpbG10dnA3NzY3OTZ0dmtwejN2ZnUycjYifQ.1W5oTOnWXQ9R1w8u3Oo1yA';
-  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token='+token, {
+
+  var token = 'pk.eyJ1Ijoibm1hbGV0bSIsImEiOiJja3kxbjRoYmYwZGhuMnZybWo2Z3psZzBtIn0._r80tEXe6U_sVf9ce66SxQ';
+  L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/outdoors-v11/tiles/{z}/{x}/{y}?access_token='+token, {
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
       '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +

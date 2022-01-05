@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" version="1.1" creator="https://gpx.studio">
+<metadata>
+    <name>My_Places</name>
+    <author>
+        <name>gpx.studio</name>
+        <link href="https://gpx.studio"></link>
+    </author>
+</metadata>
+<wpt lat="-51.72966" lon="-72.514089">
+    <ele>5.2</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.900779" lon="-72.992469">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.893801" lon="-72.979392">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.890932" lon="-72.963768">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.891882" lon="-72.950736">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.892382" lon="-72.941721">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.892758" lon="-72.933937">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.884407" lon="-72.923135">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.874911" lon="-72.780826">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.871176" lon="-72.624025">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.816354" lon="-72.544363">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.874107" lon="-72.906766">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.871854" lon="-72.894735">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.869845" lon="-72.871166">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.906622" lon="-73.00205">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.103748" lon="-73.478224">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.150651" lon="-73.377311">
+    <ele>0.0</ele>
+    <name>Seno Unión</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.169443" lon="-73.262439">
+    <ele>0.0</ele>
+    <name>Seno Unión</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.129624" lon="-73.243386">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.108287" lon="-73.182738">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.108414" lon="-73.237771">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.162132" lon="-73.245763">
+    <ele>0.0</ele>
+    <name>Seno Unión</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.104584" lon="-73.146216">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.085827" lon="-73.123914">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.057744" lon="-73.128461">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.023915" lon="-73.137122">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.980458" lon="-73.12478">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.947504" lon="-73.097714">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.926788" lon="-73.064101">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.915224" lon="-73.026603">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.123594" lon="-73.423329">
+    <ele>0.0</ele>
+    <name>Seno Unión</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.163908" lon="-73.330242">
+    <ele>0.0</ele>
+    <name>Seno Unión</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.86939" lon="-72.824956">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.872242" lon="-72.699136">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.838574" lon="-72.576138">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.790877" lon="-72.515198">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.765014" lon="-72.49758">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.746444" lon="-72.50928">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.083087" lon="-73.538868">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.078201" lon="-73.556455">
+    <ele>0.0</ele>
+    <name>Seno Unión</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.053979" lon="-73.577372">
+    <ele>0.0</ele>
+    <name>Seno Unión</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-52.031421" lon="-73.592618">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.99665" lon="-73.616357">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.971491" lon="-73.633534">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.914989" lon="-73.669283">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.885388" lon="-73.687132">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.824496" lon="-73.728831">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.821143" lon="-73.735741">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.818228" lon="-73.755027">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.818487" lon="-73.771056">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.821561" lon="-73.797067">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.832026" lon="-73.716053">
+    <ele>0.0</ele>
+    <name>Estrecho Collingwood</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.862019" lon="-73.697753">
+    <ele>0.0</ele>
+    <name>Estrecho Collingwood</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.84541" lon="-73.705783">
+    <ele>0.0</ele>
+    <name>Estrecho Collingwood</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.81773" lon="-73.820079">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.805091" lon="-73.837397">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.788985" lon="-73.856857">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.765543" lon="-73.88121">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.735319" lon="-73.911023">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.676229" lon="-73.95748">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.707951" lon="-73.938542">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.638741" lon="-73.972749">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.58187" lon="-73.99412">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.456212" lon="-74.046495">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.352768" lon="-74.094025">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.288336" lon="-74.123225">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.503939" lon="-74.02326">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.39782" lon="-74.074057">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.214139" lon="-74.147595">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.162435" lon="-74.169268">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.102342" lon="-74.190622">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.949589" lon="-74.269636">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.929168" lon="-74.284031">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.739188" lon="-74.51083">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.755568" lon="-74.468628">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.772014" lon="-74.421016">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.764365" lon="-74.438921">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.792098" lon="-74.3999">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.820236" lon="-74.374575">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.855447" lon="-74.342593">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.618509" lon="-74.712965">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.68495" lon="-74.629051">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.695612" lon="-74.593792">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.714653" lon="-74.554778">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.651825" lon="-74.671406">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.295267" lon="-74.372054">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.20292" lon="-74.369557">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.174051" lon="-74.373043">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.166096" lon="-74.374156">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.163915" lon="-74.376895">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.158967" lon="-74.394581">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.152208" lon="-74.408411">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.145344" lon="-74.412008">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.133874" lon="-74.410756">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.133397" lon="-74.404367">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.13395" lon="-74.396872">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.138502" lon="-74.39124">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.137744" lon="-74.380402">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.129458" lon="-74.371454">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.114157" lon="-74.370585">
+    <ele>0.0</ele>
+    <name>Ferry Puerto Natales - Puerto Edén - Tortel - Puerto Yungay</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.099293" lon="-74.38233">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.087766" lon="-74.402395">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.267202" lon="-74.364156">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.225884" lon="-74.364737">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-51.00736" lon="-74.236784">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.068804" lon="-74.423519">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.034351" lon="-74.434355">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.017474" lon="-74.435662">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.988166" lon="-74.422141">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.980623" lon="-74.419681">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.975543" lon="-74.419313">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.972018" lon="-74.418678">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.969376" lon="-74.415315">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.968304" lon="-74.409818">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.96824" lon="-74.403593">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.966488" lon="-74.399591">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.959714" lon="-74.398923">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.003266" lon="-74.427984">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.892868" lon="-74.407498">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.949709" lon="-74.398804">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.940898" lon="-74.396175">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.933137" lon="-74.392187">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.92615" lon="-74.393456">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.917613" lon="-74.397021">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.901075" lon="-74.402874">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.770118" lon="-74.420453">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.73784" lon="-74.41775">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.834945" lon="-74.420967">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.661587" lon="-74.417633">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.613608" lon="-74.417212">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.568339" lon="-74.419566">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.531429" lon="-74.452442">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.551405" lon="-74.433537">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.585891" lon="-74.417683">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.565744" lon="-74.216092">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.387596" lon="-74.503769">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.421289" lon="-74.497959">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.464138" lon="-74.493215">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.4922" lon="-74.482267">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.512615" lon="-74.467241">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.474221" lon="-74.283677">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.402187" lon="-74.395554">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.672089" lon="-74.33366">
+    <ele>0.0</ele>
+    <name>Canal Wide</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.60159" lon="-74.279232">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.786475" lon="-74.347779">
+    <ele>0.0</ele>
+    <name>Canal Wide</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-49.963278" lon="-74.415791">
+    <ele>0.0</ele>
+    <name>Canal Wide</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.192028" lon="-74.736566">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.387014" lon="-74.845171">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-50.519904" lon="-74.822722">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.276376" lon="-74.551142">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.14156" lon="-74.606328">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-48.030263" lon="-74.634651">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-47.895545" lon="-74.699933">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-47.824585" lon="-74.742833">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-47.969832" lon="-74.661412">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-47.747132" lon="-74.780586">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-47.629643" lon="-74.869139">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-47.434286" lon="-75.068451">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-47.520738" lon="-74.976876">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-47.40102" lon="-75.109852">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-46.058178" lon="-75.354927">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.89827" lon="-75.223885">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.611111" lon="-75.043855">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.472844" lon="-74.942351">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.379225" lon="-74.864129">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.218266" lon="-74.728152">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.116496" lon="-74.592078">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.08539" lon="-74.539229">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.042317" lon="-74.462186">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.029285" lon="-74.385375">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-47.123952" lon="-75.476077">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-46.876397" lon="-75.732303">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-46.571456" lon="-75.698495">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-46.279549" lon="-75.508105">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.719945" lon="-75.112219">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.283713" lon="-74.771734">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.15132" lon="-74.651884">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.778867" lon="-75.146267">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.944844" lon="-75.251136">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.521817" lon="-74.973301">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.044976" lon="-74.239683">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.045891" lon="-74.284789">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.037509" lon="-74.33889">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.01487" lon="-74.098882">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.012631" lon="-74.174794">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.032826" lon="-74.204608">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.013363" lon="-74.135043">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.015036" lon="-74.051635">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-45.003766" lon="-73.991386">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.991468" lon="-73.945424">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.981095" lon="-73.908144">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.837427" lon="-73.530164">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.838466" lon="-73.530871">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.871286" lon="-73.554203">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.909466" lon="-73.591168">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.938818" lon="-73.649895">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.957155" lon="-73.733151">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.970843" lon="-73.82297">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.77883" lon="-73.50869">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.148175" lon="-73.408419">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.356632" lon="-73.433419">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.245588" lon="-73.420411">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.476748" lon="-73.452001">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.563529" lon="-73.474299">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-44.654807" lon="-73.479874">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-43.987516" lon="-73.384798">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-43.829369" lon="-73.360872">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-42.355172" lon="-73.03559">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-42.799293" lon="-73.130175">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-43.114041" lon="-73.198345">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-43.551707" lon="-73.305243">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-42.213138" lon="-73.002207">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-42.086027" lon="-72.995958">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-42.032518" lon="-72.989819">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-41.820407" lon="-72.943872">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-41.856355" lon="-72.963035">
+    <ele>0.0</ele>
+    <name>Seno de Reloncaví</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-41.900025" lon="-72.968711">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-41.946245" lon="-72.972522">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-41.984385" lon="-72.982193">
+    <ele>0.0</ele>
+    <name>Unknown Place</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-41.797533" lon="-72.921211">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-41.769508" lon="-72.894904">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-41.718012" lon="-72.865115">
+    <ele>0.0</ele>
+    <name>Seno de Reloncaví</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-41.692921" lon="-72.865286">
+    <ele>0.0</ele>
+    <name>Seno de Reloncaví</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-41.648191" lon="-72.891729">
+    <ele>0.0</ele>
+    <name>Seno de Reloncaví</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-41.601866" lon="-72.917869">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-41.737783" lon="-72.872966">
+    <ele>0.0</ele>
+    <name>Seno de Reloncaví</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-41.543026" lon="-72.974522">
+    <ele>0.0</ele>
+    <name>My Position</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="-41.535493" lon="-73.026631">
+    <ele>0.0</ele>
+    <name>Seno de Reloncaví</name>
+    <cmt></cmt>
+    <desc></desc>
+    <sym> </sym>
+</wpt>
+<trk>
+    <name>My_Places</name>
+    <type>Cycling</type>
+</trk>
+</gpx>

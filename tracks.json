@@ -925,7 +925,7 @@
     ]
   },
   {
-    "id" : 9999,
+    "id" : 45,
     "file": "tracks/2016-07-02-1.gpx",
     "name": "Apps pierde la helice",
     "date" : "2016-07-02",
@@ -947,6 +947,38 @@
       "Falta la parte del final",
       "Nos quedamos sin helice",
       "Nos remolcaron a puerto"
+    ]
+  },
+  {
+    "id" : 46,
+    "file": "tracks/2017-11-03-1.gpx",
+    "name": "Ferry chile",
+    "date" : "2017-11-03",
+    "mode": {
+      "type" : "boat",
+      "name" : "Ferry"
+    },
+    "people" : [
+      "Néstor"
+    ],
+    "comments": [
+      "Ferry por fiordos de chile"
+    ]
+  },
+  {
+    "id" : 9999,
+    "file": "tracks/2021-12-05-1.gpx",
+    "name": "Mar rojo ruta norte",
+    "date" : "2021-12-05",
+    "mode": {
+      "type" : "boat",
+      "name" : "Ferry"
+    },
+    "people" : [
+      "Néstor"
+    ],
+    "comments": [
+      "Vida a bordo en el M/Y Amelia"
     ]
   }
 ]
