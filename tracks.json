@@ -980,6 +980,22 @@
     "comments": [
       "Vida a bordo en el M/Y Amelia"
     ]
+  },
+  {
+    "id" : 48,
+    "file": "tracks/2022-03-21-1.gpx",
+    "name": "Maldives",
+    "date" : "2022-03-21",
+    "mode": {
+      "type" : "boat",
+      "name" : "Ferry"
+    },
+    "people" : [
+      "Néstor"
+    ],
+    "comments": [
+      "Vida a bordo en el Mosaique"
+    ]
   }
 ]
 
